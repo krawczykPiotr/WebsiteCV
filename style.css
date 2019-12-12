@@ -28,6 +28,15 @@ body {
   text-align: center;
 }
 
+ul {
+  list-style: none;
+}
+
+.section-title {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
 /* Header */
 
 header {
@@ -44,10 +53,9 @@ span {
   color: var(--accent-color) !important
 }
 
-/* Basic Info */
+/* Section: Basic Info */
 #basic-info h2 {
-  font-size: 3rem;
-  padding: 1rem;
+  
 }
 
 #basic-info .basic-info-content {
@@ -67,14 +75,14 @@ span {
   margin-left: 3rem;
 }
 
-/* Work experience */
+/* Section: Work experience */
 
 #exp {
-  margin: 5rem;
+  margin: 3rem;
 }
 
+
 #exp ul {
-  list-style: none;
   position: relative;
   margin: 4rem;
 }
@@ -155,4 +163,34 @@ span {
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent var(--accent-color) ;
 }
+
+/* Section: Skills and Hobbies */
+
+#skills h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#skills .skills-and-hobbies {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#skills .skills-and-hobbies ul li:first-child {
+color: var(--accent-color);
+font-weight: bold;
+font-size: 2rem;
+margin-bottom: 0.3rem;
+}
+
+#skills .skills-and-hobbies ul:nth-child(2n) {
+  text-align: center;
+}
+
+#skills .skills-and-hobbies ul:last-child {
+  text-align: right;
+}
+
+
+
 
