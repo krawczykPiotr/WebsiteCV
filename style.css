@@ -196,8 +196,12 @@ margin-bottom: 0.3rem;
 
 /* Section: cover-letter */
 
+#cover-letter {
+  margin-bottom: 50px;
+}
+
 #cover-letter .container h2 {
-  margin-bottom: 600px
+  margin-bottom: 100px
 }
 
 .button {
@@ -205,6 +209,7 @@ margin-bottom: 0.3rem;
   border-radius: 20px/20px;
   padding: 8px;
   transition: all 0.5s ease-out;
+  font-size: 1.5rem;
 }
 
 .button:hover {
@@ -235,7 +240,7 @@ margin-bottom: 0.3rem;
 
 .letter {
   position: relative;
-  width: 800px;
+  width: 1200px;
   background-color: #bd9460;
   color: var(--secondary-color);
   padding: 20px;
@@ -255,6 +260,17 @@ transition: all 0.2s;
   color: #fff;
 }
 
+.content {
+  font-size: 1.3rem;
+}
 
+/* Section footer */
+
+footer {
+  text-align: center;
+  padding: 30px 0px;
+  background-color: var(--secondary-color);
+  font-size: 1rem;
+}
 
 
